@@ -9,7 +9,7 @@ h1{
 
 nav {
     text-align: center;
-    width: 40%;
+    width: 60%;
     margin-left: auto;
     background: #deb887;
     border-radius: 10px 10px 0 0;
@@ -35,6 +35,11 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     
+}
+
+
+nav a span {
+    color: white;
 }
 
 section{

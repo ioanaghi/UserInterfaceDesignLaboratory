@@ -1,0 +1,152 @@
+
+body{
+    margin: 35px 7%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: white;
+}
+
+h1{
+    color:#800000
+}
+
+nav {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    background: #deb887;
+    border-radius: 10px 10px 0 0;
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0%;
+}
+
+nav a {
+    margin: 0%;
+    display: block;
+    padding: 22px;
+    color: #a52a2a;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+nav a span {
+    color: white;
+}
+
+form{
+    background-color: #4B9FA0;
+    padding: 25px;
+    border-radius: 5px;
+
+}
+
+form label {
+    display:block;
+    color: white;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    outline: none;
+}
+
+form input:focus{
+    background-color: yellow;
+    color: black;
+}
+
+form div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+input[type="color"] {
+    width: 150px;
+    height: 40px;
+    margin :10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 40%;
+    color: grey;
+    margin: 8px 27px;
+    font-weight: bold;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+section{
+    margin: 0%;
+    display: flex;
+    gap: 20px;
+    padding: 0 8px;
+}
+
+section vbox{
+    margin: 0%;
+    width: 50%;
+    
+}
+
+section div{
+    margin: 0%;
+    width: 50%;
+    
+}
+section div h3{
+    margin: 0;
+    color: blue;
+    background-color: #7fffd4;
+    padding: 15px 10px;
+}
+section div img{
+    margin: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+section p{
+
+    padding: 20px 10px;
+    margin: 0%;
+}
+
+
+div h3{
+    margin: 0%;
+    color: blue;
+    background-color: #7fffd4;
+}
+div p{
+    margin: 0%;
+    background-color: #deb887;
+}
+
+footer{
+    background-color: #7fffd4;
+    padding: 10px;
+}
