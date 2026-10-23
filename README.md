@@ -1,66 +1,29 @@
 # User Interface Design Laboratory
 
-Practical coursework solutions and interface prototypes for the User Interface Design Laboratory course.
+HTML, CSS, and JavaScript coursework exploring semantic layouts, structural selectors, and contact-page interactions.
 
----
+## Overview
 
-## Repository Structure
+Practical interface-design exercises for the User Interface Design curriculum, including the CalaTour travel landing page and a contact page.
 
-```text
-UserInterfaceDesignLaboratory/
-├── images/
-│   ├── caribbean.jpg
-│   ├── crete.jpg
-│   ├── barcelona.jpg
-│   └── montenegro.jpg
-├── main.html
-├── style.css
-└── README.md
+## Files
 
-```
+- `main.html`: landing page.
+- `contact.html`: contact interface.
+- `css/main.css` and `css/contact.css`: page styles.
+- `js/contact.js`: contact-page behavior.
+- `images/`: supporting travel imagery.
 
----
+## View locally
 
-## Laboratory Modules
-
-### Lab 1: CalaTour Landing Page (Semantic HTML and DOM-Based CSS)
-
-An agency landing page built strictly through semantic document hierarchy and DOM tree combinators, without using any classes, IDs, or inline styling.
-
-#### Constraints and Rules
-
-* Allowed HTML tags only: html, head, body, title, nav, header, section, footer, h1, h2, h3, div, p, span, ul, li, a, img, strong, em
-* No class or ID attributes allowed: Elements are targeted entirely through structural DOM selectors (child, descendant, adjacent sibling, and pseudo-classes).
-* No inline or in-document styling: All presentation rules must reside within style.css.
-
-#### Color Specifications
-
-| Element / Target | CSS Property | Value |
-| --- | --- | --- |
-| Main Title (h1) | color | #800000 |
-| Menu Text (nav a) | color | #a52a2a |
-| Menu Background (nav) | background-color | #deb887 |
-| Last Minute Title Text (h2) | color | blue |
-| Last Minute Title Background (h2) | background-color | #7fffd4 |
-| Last Minute Card Description (p) | background-color | #deb887 |
-| Footer (footer) | background-color | #7fffd4 |
-
----
-
-### Lab 2: Upcoming
-
-To be added in future lab sessions.
-
----
-
-## How to Run
-
-1. Clone the repository:
-```bash
-git clone [https://github.com/](https://github.com/)<your-username>/UserInterfaceDesignLaboratory.git
+```sh
+git clone https://github.com/ioanaghi/UserInterfaceDesignLaboratory.git
 cd UserInterfaceDesignLaboratory
-
+python3 -m http.server 8000
 ```
 
+Open `http://localhost:8000/main.html` or `http://localhost:8000/contact.html`. A local static server is sufficient; no package build is needed.
 
-2. Double-click main.html to open it directly in any browser, or right-click the file in VS Code and select Open with Live Server.
+## Learning focus
+
+Semantic HTML, DOM relationships, structural CSS selectors, and browser interactions. The first laboratory emphasizes layouts using structural selectors rather than class/ID styling. The current repository includes later contact-page work as well.
