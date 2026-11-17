@@ -1,0 +1,89 @@
+#chat-div {
+	position: fixed;
+	left: 0px;
+	top: 100px;
+	width: 40px;
+	height: 40px;
+}
+
+#chat-header {
+	background-color: inherit;
+	width: 100%;
+	font-size: 2em;
+	text-align: left;
+	padding-top: 10px;
+	border-radius: 0px 5px 5px 0px;
+	background-color: burlywood;
+	color: brown;
+	height: 40px;
+	cursor: pointer;
+}
+
+#chat-header i {
+	margin-left: 5px;
+}
+
+#chat-header i.fa-times {
+	float: right;
+	margin-right: 10px;
+}
+
+#chat-body {
+	width:  100%;
+	height: 0px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+#form-login {
+	width: auto;
+	float: none;
+	font-size: 1.3em;
+}
+
+#form-login p {
+	color: white;
+	vertical-align: middle;
+}
+
+#form-login p i {
+	font-size: 1.6em;
+}
+
+#form-login input {
+	font-size: 1em;
+	color: black;
+}
+
+#form-login input:disabled {
+	color: #666666;
+	background-color: #eeeeee;
+}
+
+#form-login input[type="submit"] {
+	float: none;
+}
+
+#form-login p.success {
+
+}
+
+#form-login p.warning {
+	color: #c40000;
+}
+
+#chat-loading {
+	position: absolute;
+	margin-bottom: 0px;
+	color: black;
+	background-color: white;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+#chat-loading img {
+	width: 24px;
+	height: 24px;
+	padding: 5px;
+	vertical-align: middle;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Interface Design</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- Lab04 -->
+	<link rel="stylesheet" href="css/lab04.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lab04.js"></script>
+	<!-- end Lab04 -->
+</head>
+
+<body>
+	<header>
+		<h1>
+			<a href="#"><strong>CalaTour</strong> - <em>your travel agency</em></a>
+		</h1>
+
+		<nav>
+			<ul>
+				<li><a href="Project_1_UID_Home.html">Home</a></li>
+				<li><a href="#">Cruises</a></li>
+				<li><a href="#">Hiking</a></li>
+				<li><a href="#">Swimming</a></li>
+				<li><a href="#">Special offers</a></li>
+				<li><a href="Project_1_UID_Contact.html" class="selectedMenu">Contact</a></li>
+			</ul>
+		</nav>
+		<img src="images/caribbean.jpg">
+	</header>
+
+	<section>
+		<h2>Contact</h2>
+		<div id="contactInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit odio, varius vel est vel, tincidunt malesuada ex. Phasellus vulputate quam placerat, mollis sapien in, laoreet mi. Aliquam venenatis dui vitae quam feugiat accumsan. Aenean in aliquet libero. Mauris odio dui, placerat a efficitur et, pulvinar at quam. Phasellus auctor odio dui, ac tincidunt ipsum ornare vitae. Mauris quis sapien scelerisque, consectetur diam ac, consequat augue. Cras hendrerit lectus non urna volutpat pulvinar. Etiam a pretium nulla, ac condimentum dolor. Curabitur commodo accumsan lobortis. Duis sed justo eget mi dignissim volutpat. Donec imperdiet, odio et vulputate efficitur, purus neque malesuada massa, rutrum elementum turpis dui vel enim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
+		<form action="#">
+      <div id="message_display" class="message_hidden">
+
+      </div>
+
+			<label for="nume">Last name</label>
+			<input type="text" id="nume" onblur="formInputBlur(this)">
+
+			<label for="prenume">First name</label>
+      <input type="text" id="prenume" onblur="formInputBlur(this)">
+
+			<label for="adresa">Address</label>
+			<input type="text" id="adresa">
+
+			<label for="data_nasterii">Birth date</label>
+			<input type="date" id="data_nasterii">
+
+      <label for="telefon">Telephone</label>
+			<input type="tel" id="telefon">
+
+       <label for="email">Email</label>
+			<input type="email" id="email">
+
+			<label for="color">Favourite colour</label>
+			<input type="color" id="color">
+
+      <p style="clear:both; height: 30px;"></p>
+
+			<input type="submit" Value="Submit">
+      <input type="reset" Value="Reset">
+		</form>
+	</section>
+
+	<section id="last-minute">
+		<h2>Last minute</h2>
+		<div>
+			<h3>Crete - 5 days</h2>
+			<a href=""><img src="images/crete.jpg"></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec imperdiet, odio et vulputate efficitur.</p>
+		</div>
+
+		<div>
+			<h3>Barcelona</h2>
+			<a href=""><img src="images/barcelona.jpg"></a>
+			<p>Ut elit odio, varius vel est vel, tincidunt malesuada ex. Phasellus vulputate quam placerat, mollis sapien in, laoreet mi. </p>
+		</div>
+
+		<div>
+			<h3>Montenegro</h2>
+			<a href=""><img src="images/montenegro.jpg"></a>
+			<p>Donec imperdiet, odio et vulputate efficitur, purus neque malesuada massa, rutrum elementum turpis dui vel enim. </p>
+		</div>
+	</section>
+
+	<footer>
+		<p>
+			&copy; 2014 <a href="http://cgis.utcluj.ro">Computer Graphics and Interactive Systems</a>
+		</p>
+	</footer>
+
+	<!-- Lab04 -->
+	<div id="chat-div">
+		<div id="chat-header">
+			<i class="fa fa-wechat"></i>
+			<span></span>
+		</div>
+		<div id="chat-body">
+			<form id="form-login" action="#">
+				<p>
+					<i class="fa fa-lock"></i> Authentication required
+				</p>
+				<input type="text" placeholder="username" name="username" id="username" />
+				<input type="password" placeholder="password" name="password" id="password" />
+				<input type="submit" value="Authenticate">
+			</form>
+			<div id="chat-messages">
+
+			</div>
+			<div id="chat-loading">
+				<img src="images/loading.gif"> Processing ...
+			</div>
+		</div>
+	</div>
+	<!-- end Lab04 -->
+
+</body>
+</html>
